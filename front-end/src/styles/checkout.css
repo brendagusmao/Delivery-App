@@ -92,13 +92,14 @@ td {
 }
 
 select {
-  background-color: #eee;
+  background-color: var(--cor-principal);
   border: none;
   font-family: Merriweather , serif;
-  font-size: 12px;
+  font-size: 13px;
   margin-top: 20px;
   outline: none;
   padding: 10px;
+  border-radius: 4px;
 }
 
 .continue {
