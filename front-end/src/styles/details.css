@@ -1,18 +1,17 @@
 .details {
-  background-color: rgb(242, 242, 242);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
   align-content: center;
-  justify-content: flex-start;
   align-items: center;
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  text-align: center;
 }
 
 .cardetails {
   background-color: white;
   border: 1px solid #f0f0f0;
-  font-family: Merriweather, serif;
+  font-family: Merriweather , serif;
   font-size: 12px;
   margin: 5px 0 5px 10px;
   text-align: center;
@@ -30,7 +29,7 @@
 
 .total {
   background-color: rgb(238, 238, 238);
-  font-family: Montserrat, sans-serif;
+  font-family: Montserrat , sans-serif;
   font-size: 12px;
   font-weight: 700;
   padding: 10px;
@@ -42,7 +41,7 @@
 }
 
 h3 {
-  font-family: Montserrat, sans-serif;
+  font-family: Montserrat , sans-serif;
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -52,22 +51,23 @@ h3 {
 }
 
 .orderdetails {
-  font-family: Montserrat, sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  margin: 5px 0 0 0;
-  display: flex;
   background-color: var(--cor-principal);
   border: 1px solid #cb6703;
-  flex-direction: column;
-  width: 90%;
-  justify-content: flex-start;
   border-radius: 5px;
   color: var(--cor-text-dark);
+  display: flex;
   filter: drop-shadow(0 1px 5px rgba(0, 0, 0, 0.4));
+  flex-direction: column;
+  font-family: Montserrat , sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  justify-content: flex-start;
+  margin: 5px 0 0;
+  width: 90%;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and ( max-width : 780px ) {
+
   .cardetails {
     width: 100%;
   }
@@ -81,7 +81,8 @@ h3 {
 
 } */
 
-@media screen and (max-width: 375px) {
+@media screen and ( max-width : 375px ) {
+
   .details {
     height: 812px;
   }
