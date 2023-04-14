@@ -1,7 +1,8 @@
 .telehone {
   align-content: center;
   align-items: left;
-  background-image: url('https://i.pinimg.com/originals/d5/be/dc/d5bedc8fbc402c009bf01985a35c0643.png');
+  background-image: url('../images/iphone\ \(1\).png');
+  /* https://i.pinimg.com/originals/d5/be/dc/d5bedc8fbc402c009bf01985a35c0643.png */
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -19,10 +20,10 @@ main {
   border-radius: 0 0 30px 30px;
   display: flex;
   flex-direction: column;
-  height: 525px;
+  height: 559px;
   justify-content: center;
   margin-left: 2px;
-  margin-top: 75px;
+  margin-top: 40px;
   width: 268px;
 }
 
@@ -31,10 +32,10 @@ main {
   background-color: white;
   border-radius: 5px 5px 30px 30px;
   display: grid;
-  height: 400px;
+  height: 550px;
   justify-items: start;
   margin-left: 0;
-  margin-top: 13px;
+  margin-top: 30px;
   overflow-y: scroll;
   padding-top: 15px;
   width: 265px;
@@ -45,14 +46,14 @@ main {
 }
 
 .login {
-  background-color: #ffa915;
+  background-color: #1e1e1e;
   color: white;
 }
 
 .login h1 {
   align-content: center;
   align-items: center;
-  color: #0e0e0e;
+  color: #eeeeee;
   display: flex;
   flex-wrap: nowrap;
   font-family: Work Sans , sans-serif;
@@ -65,7 +66,7 @@ main {
 }
 
 .login h2 {
-  color: #0e0e0e;
+  color: #dddbdb;
   font-family: Work Sans , sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -93,7 +94,7 @@ main {
 }
 
 .sub {
-  color: var(--cor-text-black);
+  color: var(--cor-text-white);
   font-family: Work Sans , sans-serif;
   font-size: 12px;
 }
@@ -108,9 +109,9 @@ main {
   display: flex;
   filter: drop-shadow(0 1px 5px rgba(0, 0, 0, 0.05));
   flex-direction: column;
-  height: 380px;
+  height: 620px!important;
   justify-content: center;
-  margin-top: -30px;
+  margin-top: -20px;
   padding: 6px;
   width: 95%;
 }
@@ -156,7 +157,7 @@ label {
 }
 
 .margintop {
-  margin-top: -30px;
+  margin-top: -0px;
 }
 
 .button {
@@ -220,7 +221,7 @@ button {
 
 .logo img {
   margin-top: 10px;
-  width: 75px;
+  width: 125px;
 }
 
 @media screen and ( max-width : 780px ) {

@@ -5,7 +5,7 @@ import LoginButton from '../components/loginPage/LoginButton';
 import RegisterButton from '../components/loginPage/RegisterButton';
 import PasswordInput from '../components/PasswordInput';
 import AppContext from '../context/Context';
-import Logo from '../images/bardrink.png';
+import Logo from '../images/drink.png';
 import '../styles/appmock.css';
 
 // Req2
