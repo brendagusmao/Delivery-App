@@ -38,6 +38,9 @@ nav {
   width: 130px;
 }
 
+.size {
+  font-size: 10px;
+}
 .logout {
   background-color: transparent;
   border: none;

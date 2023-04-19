@@ -37,6 +37,7 @@ function Navbar() {
           to={ user.role === 'customer'
             ? '/customer/orders' : '/seller/orders' }
           data-testid="customer_products__element-navbar-link-orders"
+          className="size"
         >
           { pathname.split('/')[1] === 'customer'
             ? <GoListUnordered /> : 'PEDIDOS'}
